@@ -1,0 +1,574 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
+    font-size: 25px;
+}
+::selection{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+.glavni{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.freepik.com/premium-vector/white-geometric-pattern-with-black-white-background_737564-504.jpg);
+    overflow: hidden;
+}
+h1{
+    margin-bottom: 0;
+}
+nav{
+    width: 100%;
+    align-self: center;
+    height: 70px;
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+    font-size: 22px;
+    position: sticky;
+    top: 0;
+    z-index: 70000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    display: flex;
+    align-items: center;
+}
+a:hover{
+    font-size: 25px;
+}
+.img11{
+    height: 70%;
+}
+.aw{
+    width: 50vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.lo{
+    font-size: 150px;
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: transparent;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f4eab60276cac67de5d98ac/1599234512935-KLHO0QNV2JSV2M7SOQNX/shining_carpet_four_tiles.jpg);
+    background-clip: text;
+}
+.lo::before{
+    content:"Hamza Agačević";
+    position: absolute;
+    top: -30px;
+    left: 183px;
+    font-size: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+}
+.ai{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+.wc {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.aqa{
+    width: 70%;
+}
+.qpp{
+    width: 50%;
+    text-align: center;
+}
+.wc::after{
+    content: "";
+    background-image: url(slike/ova2.jpg);
+    background-size: 100%;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right: 70px;
+    top: -120px;
+    border: 1px solid black;
+}
+.wc::before{
+    content: "";
+    background-image: url(slike/ova3.jpg);
+    background-size: 100%;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    left: 90px;
+    bottom: 60px;
+}
+.qq{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.pi{
+    width: 80%;
+    text-align: center;
+    font-family:monospace;
+    font-size: 20px;
+    align-self: center;
+}
+.i{
+    width: 40%;
+}
+.ay{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 325px;
+    padding-right: 325px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5f4eab60276cac67de5d98ac/1599234512935-KLHO0QNV2JSV2M7SOQNX/shining_carpet_four_tiles.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: auto;
+}
+.wc1{
+}
+.ok{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    display: flex;
+    animation: ani 3s linear infinite;
+    background-image: url(https://media.istockphoto.com/id/481475560/vector/vinyl-record-template.jpg?s=612x612&w=0&k=20&c=fZgBryspxNnRn8qMa1mEquff_T6wENAY1HXMtNEMyh4=);
+    background-size: 100%;
+    text-align: center;
+}
+@keyframes ani{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.gl{
+    display: flex;
+    justify-content: space-between;
+}
+.ok:nth-child(odd){
+    height: 290px;
+    width: 290px;
+    border-radius: 50%;
+    animation: an1i 3s linear infinite;
+    background-image: url(https://media.istockphoto.com/id/481475560/vector/vinyl-record-template.jpg?s=612x612&w=0&k=20&c=fZgBryspxNnRn8qMa1mEquff_T6wENAY1HXMtNEMyh4=);
+    background-size: 100%;
+}
+@keyframes an1i{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.gl:nth-child(even) .ok:nth-child(even)
+{
+    background-image: none;
+    animation: none;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+.gl:nth-child(even) .ok:nth-child(odd)
+{
+    animation: ani 3s linear infinite;
+}
+.gl:nth-child(even) 
+{
+    width: 100%;
+}
+.gl:nth-child(odd) 
+{
+    width: 86.892%;
+}
+.disk{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.oqo{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.oqosl{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.oqo::before{
+    content: "";
+    background-image: url(https://jajce.ba/wp-content/uploads/2020/04/Vodopad-Jajce-ba.jpg);
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    left: 50px;
+    top: 180px;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid coral;
+
+}
+.oqo::after{
+    content: "";
+    background-image: url(https://cdn.britannica.com/01/137401-050-C2F0EEDA/Sarajevo-Bos-Her.jpg);
+    height: 20%;
+    width: 20%;
+    position: absolute;
+    left: 170px;
+    bottom: 180px;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid coral;
+}
+.slikaa:nth-child(odd){
+    padding-left: 150px;
+    background-image: url(https://www.travnicki.info/wp-content/uploads/2024/01/AFAD380A-471C-450D-A35B-DF8AE756491E.jpeg);
+}
+.slikaa{
+    width: 50%;
+    height: 30%;
+    border-radius: 5px;
+    background-image: url(https://www.skiportal.hr/wp/wp-content/uploads/2013/10/Vla%C5%A1i%C4%87-istaknuta.jpg);
+    background-size: cover;
+}
+.slikaa:nth-child(3){
+    background-image: url(https://magazin.bihamk.ba/assets/photos/article/big/1655963993-travnik-bosanska-carsija-obojena-historijom.jpg?v1655964315);
+}
+.r{
+    font-size: 25px;
+    width: 60%;
+    text-align: center;
+    align-self: flex-end;
+}
+span{
+    font-size: 45px;
+    text-decoration:underline;
+}
+.ir{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+}
+.peppa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.slika{
+    width: 27%;
+    border-radius: 5px;
+    transition: 0.1s ease-in;
+}
+.slika:hover{
+    width: 30%;
+}
+.rr{
+    display: flex;
+    width: 100%;
+}
+.fli4{
+    width: 60%;
+    z-index: 1000;
+}
+.tek4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: left 0.35s ease;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.tek44{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: left 0.35s ease;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+}
+.fil3:hover .tek4{
+    left: 61%;
+}
+.fil2:last-child .fil3:last-child .tek4:last-child .flm{
+    height: 100%;
+    width: 35%;
+}
+.fil3:hover .tek44{
+    left: 0;
+}
+
+.fil3{  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+.fil3:nth-child(even){
+    flex-direction: row-reverse;
+}
+.fil2{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.film{
+    width: 90%;
+    height: 55vh;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.flm{
+    width: 39%;
+}
+.traka{
+    height: 20vh;
+    width: 110%;
+    background-image: url(https://www.pikpng.com/pngl/b/101-1012845_1024-x-315-12-old-film-strip-template.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    transform: rotateZ(-3deg);
+    position: relative;
+    align-self: center;
+}
+.traka1{
+    height: 20vh;
+    width: 110%;
+    background-image: url(https://www.pikpng.com/pngl/b/101-1012845_1024-x-315-12-old-film-strip-template.png);
+    background-repeat: repeat;
+    background-size: contain;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    transform: rotateZ(3deg);
+    position: relative;
+    align-self: center;
+}
+.tet{
+    font-size: 50px;
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tete{
+    text-decoration:none;
+    font-weight:1000;
+    font-size: 60px;
+    color: coral;
+}
+.qp{
+    width: 15%;
+    align-self: center;
+    padding: 20px;
+}
+h1{
+    font-size: 100px;
+    color: coral;
+}
+@media only screen and (max-width:764px) {
+    .glavni{
+        width: 100%;
+        height: 85%;
+    }
+    nav{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .img11{
+        height: 70%;
+    }
+    a{
+        font-size: 14px;
+    }
+    .aw{
+        width: 70%;
+    }
+    .ai{
+        width: 90%;
+        align-self: center;
+    }
+    .lo{
+        font-size: 40px;
+    }
+    .lo::before{
+        top: -7px;
+        left: 60px;
+        font-size: 15px;
+    }
+    .wc::after{
+        height: 70px;
+        width: 70px;
+        right: 27px;
+        top: -15px;
+    }
+    .wc::before{
+        height: 70px;
+        width: 70px;
+        left: 20px;
+        bottom: 20px;
+    }
+    .pi{
+        font-size: 10px;
+    }
+    .aqa{
+        width: 75%;
+    }
+    .ok:nth-child(odd){
+        height: 70px;
+        width: 70px;
+    }
+    .ok{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        align-self: center;
+    }
+    .disk{
+        height: 25vh;
+        width: 100%;
+        align-self: center;
+    }
+    .ay{
+        padding: 25px;
+        background-size:50%;
+    }
+    .r{
+        font-size: 15px;
+    }
+    span{
+        font-size: 20px;
+    }
+    .gl:nth-child(even) .ok:nth-child(even)
+    {
+        font-size: 20px;
+    }
+    .slikaa{
+        width: 85%;
+        height: 14%;
+    }
+    .slikaa:nth-child(odd){
+        padding-left: 0;
+    }
+    .oqo::before{
+        top: 170px;
+        height: 13%;
+        width: 33%;
+        left: 20px;
+    }
+    .oqo::after{
+        bottom: 170px;
+        left:20px;
+        height: 13%;
+        width: 33%;
+    }
+    .traka{
+        height: 10vh;
+    }
+    .traka1{
+        height: 10vh;
+    }
+    .tet{
+        width: 100%;
+        font-size: 25px;
+    }
+    .tete{
+        font-size: 30px;
+    }
+    .film{
+        flex-direction: column;
+        height: 100%;
+        width: 97%;
+    }
+    .fil2{
+        width: 100%;
+    }
+    .fil2:last-child .fil3:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    .fil2:last-child .fil3:nth-child(even){
+        flex-direction: row;
+    }
+    .fil2:last-child .tek44{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        transition: left 0.35s ease;
+        display: flex;
+        align-items: center;
+        z-index: 999;
+    }
+    .fil2:last-child .fil3:hover .tek4{
+        left: 0;
+    }
+    .fil2:last-child .fil3:hover .tek44{
+        left: 61%;
+    }
+    .fil2:last-child .tek4{
+        position: absolute;
+        left: 100%;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        transition: left 0.35s ease;
+        display: flex;
+        align-items: center;
+        z-index: 999;
+    }
+    .qp{
+        width: 25%;
+    }
+    .qpp{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 35px;
+    }
+}
